@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Portugues:</strong>
+  <%= @notum.portugues %>
+</p>
+
+<p>
+  <strong>Matematica:</strong>
+  <%= @notum.matematica %>
+</p>
+
+<p>
+  <strong>Historia:</strong>
+  <%= @notum.historia %>
+</p>
+
+<p>
+  <strong>Biologia:</strong>
+  <%= @notum.biologia %>
+</p>
+
+<%= link_to 'Edit', edit_notum_path(@notum) %> |
+<%= link_to 'Back', nota_path %>
