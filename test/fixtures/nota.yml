@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  portugues: MyString
+  matematica: MyString
+  historia: MyString
+  biologia: MyString
+
+two:
+  portugues: MyString
+  matematica: MyString
+  historia: MyString
+  biologia: MyString
