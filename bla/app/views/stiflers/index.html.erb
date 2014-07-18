@@ -1,0 +1,29 @@
+<h1>Listing stiflers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Cor</th>
+      <th>Numero</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stiflers.each do |stifler| %>
+      <tr>
+        <td><%= stifler.nome %></td>
+        <td><%= stifler.cor %></td>
+        <td><%= stifler.numero %></td>
+        <td><%= link_to 'Show', stifler %></td>
+        <td><%= link_to 'Edit', edit_stifler_path(stifler) %></td>
+        <td><%= link_to 'Destroy', stifler, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Stifler', new_stifler_path %>

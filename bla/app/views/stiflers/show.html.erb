@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @stifler.nome %>
+</p>
+
+<p>
+  <strong>Cor:</strong>
+  <%= @stifler.cor %>
+</p>
+
+<p>
+  <strong>Numero:</strong>
+  <%= @stifler.numero %>
+</p>
+
+<%= link_to 'Edit', edit_stifler_path(@stifler) %> |
+<%= link_to 'Back', stiflers_path %>
